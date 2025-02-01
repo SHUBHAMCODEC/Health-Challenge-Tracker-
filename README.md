@@ -67,12 +67,6 @@ The project includes unit tests for the component and service, with 100% code co
 
 This will run the tests and display the results, along with the code coverage percentage.
 
-## Hosting
-
-The app is hosted on **GitHub Pages/Netlify/Heroku** (choose one). You can view the live application by clicking the link below:
-
-<p><a href="https://your-app-link.com" target="_blank">Live Demo</a></p>
-
 ## Built With
 
 <ul>
