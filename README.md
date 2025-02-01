@@ -1,20 +1,85 @@
-<h1><b>Health Challenge Tracker - Angular SPA</b></h1>
-<h3>Overview</h3>
-<p>The Health Challenge Tracker is a single-page application (SPA) built with Angular 14+ to track users' workouts. Users can input their name, workout type, and minutes spent on each activity. The app displays this data in a table, allowing search by name, filtering by workout type, and pagination. An optional feature includes displaying workout progress using charts.</p>
+# Health Challenge Tracker - Angular SPA
 
-<h3><b>Features</b></h3>
-<ol>
-<l1>User Input: Collects name, workout type, and minutes.</l1>
-<l1>Workout List: Displays data with search, filter, and pagination functionalities.</l1>
-<l1>Charts: Workout progress visualization using charts.</l1></ol>
+## Overview
 
-<h3><b>Requirements</b></h3>
+The **Health Challenge Tracker** is a Single Page Application (SPA) built using **Angular 14+**. The application allows users to track their workout activities, including workout type and duration. Users can add their workout data, and the application will display the information in a table with the ability to **search by name**, **filter by workout type**, and **paginate** through the results. 
+
+This project also includes an optional feature to visualize workout progress using **charts**. The application data is stored in **localStorage** to retain the information between sessions.
+
+## Features
+
 <ul>
-<li>Built with Angular 14+ and styled using Tailwind CSS.</li>
-<li>Data stored in localStorage.</li>
-<li>Includes unit tests for one component and one service with 100% code coverage.</li>
-<li>Host the app on platforms like Heroku, Netlify, or GitHub Pages.</li></ul>
+  <li><strong>User Input:</strong> Collects the user's name, workout type, and workout duration (in minutes).</li>
+  <li><strong>Workout List:</strong> Displays entered workout data in a table format with search and filter functionalities.</li>
+  <li><strong>Pagination:</strong> Handles pagination when there are more than 5 users/workouts.</li>
+  <li><strong>Workout Progress Visualization (Optional):</strong> Shows workout progress using charts.</li>
+</ul>
 
-<h3>Deliverables</h3>
-GitHub repository link with instructions to run locally.
-Hosted web app link for evaluation.
+## Prerequisites
+
+Before running the application, ensure you have the following tools installed:
+
+<ul>
+  <li><strong>Node.js</strong> (version 14 or higher)</li>
+  <li><strong>Angular CLI</strong> (latest version)</li>
+</ul>
+
+You can install **Node.js** and **Angular CLI** by following these links:
+<ul>
+  <li><a href="https://nodejs.org/">Node.js download</a></li>
+  <li><a href="https://angular.io/cli">Angular CLI installation</a></li>
+</ul>
+
+## Setup
+
+Follow these steps to get the project running locally:
+
+<ol>
+  <li><strong>Clone the repository:</strong>
+    <pre><code>git clone https://github.com/SHUBHAMCODEC/Health-Challenge-Tracker.git</code></pre>
+  </li>
+  
+  <li><strong>Navigate to the project folder:</strong>
+    <pre><code>cd Health-Challenge-Tracker</code></pre>
+  </li>
+  
+  <li><strong>Install the required dependencies:</strong>
+    <pre><code>npm install</code></pre>
+  </li>
+  
+  <li><strong>Serve the application locally:</strong>
+    <pre><code>ng serve</code></pre>
+  </li>
+  
+  <li><strong>Open the application:</strong>
+    Once the server is running, open your browser and navigate to:
+    <p><code>http://localhost:4200</code></p>
+  </li>
+</ol>
+
+You should see the Health Challenge Tracker application.
+
+## Unit Testing
+
+The project includes unit tests for the component and service, with 100% code coverage. To run the tests and generate a code coverage report, use the following command:
+
+<pre><code>ng test</code></pre>
+
+This will run the tests and display the results, along with the code coverage percentage.
+
+## Hosting
+
+The app is hosted on **GitHub Pages/Netlify/Heroku** (choose one). You can view the live application by clicking the link below:
+
+<p><a href="https://your-app-link.com" target="_blank">Live Demo</a></p>
+
+## Built With
+
+<ul>
+  <li><strong>Angular 14+</strong>: The framework used to build the SPA.</li>
+  <li><strong>Tailwind CSS</strong>: For styling the application.</li>
+  <li><strong>localStorage</strong>: For storing workout data persistently.</li>
+  <li><strong>ng2-charts (Optional)</strong>: For charting workout progress.</li>
+</ul>
+
+
